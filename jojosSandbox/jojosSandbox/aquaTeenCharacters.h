@@ -16,10 +16,11 @@ public:
 	aquaTeenCharacters(std::string n, std::string r, bool detective);
 
 	void setName(std::string n);
-	void setRace(std::string f);
+	void setRace(std::string r);
 	void setDetective(bool detective);
 
 	std::string getName();
 	std::string getRace();
 	bool getDetective();
 };
+
