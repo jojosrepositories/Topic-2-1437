@@ -5,6 +5,8 @@
 
 # pragma once
 #include <string>
+
+// creating class
 class aquaTeenCharacters
 {
 private:
@@ -15,6 +17,7 @@ private:
 public:
 	aquaTeenCharacters(std::string n, std::string r, bool detective);
 
+// declaring setters & getters in the class
 	void setName(std::string n);
 	void setRace(std::string r);
 	void setDetective(bool detective);
@@ -23,4 +26,5 @@ public:
 	std::string getRace();
 	bool getDetective();
 };
+
 
