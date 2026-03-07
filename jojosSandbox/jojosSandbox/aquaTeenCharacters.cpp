@@ -1,8 +1,10 @@
+// pres-sets
 #include <iomanip>
 #include <iostream>
 #include <string>
 #include "aquaTeenCharacters.h"
 
+// parameterizing class
 aquaTeenCharacters::aquaTeenCharacters(std::string n, std::string r, bool detective)
 {
 	name = n;
@@ -10,6 +12,7 @@ aquaTeenCharacters::aquaTeenCharacters(std::string n, std::string r, bool detect
 	isDetective = detective;
 }
 
+// setters
 void aquaTeenCharacters::setName(std::string n)
 {
 	name = n;
@@ -25,6 +28,7 @@ void aquaTeenCharacters::setDetective(bool detective)
 	isDetective = detective;
 }
 
+// getters
 std::string aquaTeenCharacters::getName()
 {
 	return name;
@@ -39,3 +43,4 @@ bool aquaTeenCharacters::getDetective()
 {
 	return isDetective;
 }
+
